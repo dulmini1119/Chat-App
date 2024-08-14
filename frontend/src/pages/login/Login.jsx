@@ -12,7 +12,7 @@ const Login = () => {
         <form>
             <div>
                 <label className='label p-2'>
-                    <span className='text-base label-text'>
+                    <span className='text-base label-text font-bold'>
                         Username
                     </span>
                 </label>
@@ -21,12 +21,20 @@ const Login = () => {
             </div>
             <div>
                 <label className='label'>
-                    <span className='text-base label-text'>
+                    <span className='text-base label-text font-bold'>
                         Password
                     </span>
                 </label>
                     <input type='password' placeholder='Enter password' className='w-full input input-bordered h-10'/>
                
+            </div>
+
+            <a href='#' className='text-sm hover:underline hover:text-white mt-2 inline-block font-bold'>
+                {"Don't"} have an account?
+            </a>
+
+            <div>
+                <button className='btn btn-block btn-sm mt-2'>Login</button>
             </div>
         </form>
 
