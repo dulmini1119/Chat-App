@@ -1,8 +1,12 @@
 import React from 'react'
+import SearchInput from './SearchInput'
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div>
+        <SearchInput/>
+        <div className='divider px-3'></div>
+    </div>
   )
 }
 
